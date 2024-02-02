@@ -409,7 +409,7 @@ const Dashboard = () => {
             {myChart}
             {bottomChart}
             <Box>
-            <iframe width="100%" maxHeight="1400px" height="1000px" src="https://lookerstudio.google.com/embed/reporting/954005ad-1d70-4028-ae81-f05cf00cb605/page/psEpD" frameBorder="0" allowFullScreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+            <iframe width="100%" maxHeight="1400px" height="1000px" src="https://lookerstudio.google.com/embed/reporting/954005ad-1d70-4028-ae81-f05cf00cb605/page/psEpD"  allowFullScreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
             </Box>
             
             
