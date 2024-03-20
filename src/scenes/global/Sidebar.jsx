@@ -5,9 +5,6 @@ import { Link } from "react-router-dom";
 import "react-pro-sidebar/dist/css/styles.css";
 import { tokens } from "../../theme";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
-import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutlined";
-import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 
@@ -95,7 +92,9 @@ const Sidebar = () => {
               variant="h6"
               color={colors.grey[300]}
               sx={{ m: "15px 0 5px 20px" }}
-            >Аймаг</Typography>
+            >
+              Аймаг
+            </Typography>
             <Item
               title="Баянхонгор"
               to="/bayankhongor"
@@ -117,7 +116,6 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
-
           </Box>
         </Menu>
       </ProSidebar>
